@@ -413,19 +413,19 @@ html {
   float: left;
   padding: 15px;
 }
+.portfolio-img,
 .portfolio-img img {
   width: 100%;
 }
 .portfolio-layer {
-  width: 100%;
-  background-color: #55555560;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 0;
-  transition: all 0.5s;
+background-color: #bebaba81;
+    width: 93%;
+    position: absolute;
+    top: 14px;
+    bottom: 14px;
+    left: 14px;
+    opacity: 0;
+    transition: all 0.5s;
 }
 .portfolio-list ul li .all {
   color: #ff305b;
@@ -505,7 +505,7 @@ html {
 }
 
 #testimonial .container .clients .client .client-img img {
-  width: 100%;
+  width: 85%;
   border-radius: 50%;
 }
 
